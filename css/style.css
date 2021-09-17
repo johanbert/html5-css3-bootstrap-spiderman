@@ -1,0 +1,78 @@
+/*
+PALETA DE COLORES
+red-clear:  #DF1F2D
+red-dark :  #B11313
+blue-clear: #447BBE
+blue-dark : #171d66
+#1A237E
+*/
+
+
+/* CUSTOM CLASSES*/
+
+.bg-bluedark {
+    background-color: #171d66;
+}
+
+.row {
+    padding: 30px 15px;
+}
+
+.parallax {
+    background: linear-gradient( to right, rgba(0, 0, 0, .75), rgba(23, 29, 102, .50)), url('../img/spidey-wallpaper1.jpg');
+    /* background: linear-gradient( rgba(255 255 255 / 12%), rgba(255 255 255 / 23%)), url("../img/spidey-wallpaper1.jpg"); */
+    /* background-image: url('../img/spidey-wallpaper1.jpg'); */
+    background-attachment: fixed;
+    background-position: 100% 30%;
+    background-size: cover;
+    height: 85vh;
+}
+
+
+/* CUSTOM CLASSES*/
+
+header .navbar-brand img {
+    height: 50px;
+}
+
+header .bg-image {
+    background-image: url('../img/spidey-wallpaper1.jpg');
+    background-attachment: fixed;
+    background-position: 100% 30%;
+    height: 85vh;
+}
+
+header .bg-image .mask {
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(23, 29, 102, .50));
+}
+
+section {
+    padding: 60px 40px;
+}
+
+section#who-am-i p {
+    text-align: justify;
+}
+
+section#who-am-i img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+section#services i {
+    color: #fff;
+    padding: 30px 0;
+}
+
+section#services .row:nth-child(2) .col:nth-child(odd) i {
+    background-color: #B11313;
+}
+
+section#services .row:nth-child(2) .col:nth-child(even) i {
+    background-color: #171d66;
+}
+
+
+/* section#services row:nth-child(2) i:nth-child(even) {
+    background-color: #171d66;
+} */
