@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Montserrat:wght@400;500&display=swap');
+
 /*
 PALETA DE COLORES
 red-clear:  #DF1F2D
@@ -8,10 +10,34 @@ blue-dark : #171d66
 */
 
 
+/*
+    Google Fonts Most Used:
+    Roboto, Montserrat, Open Sans, Oswald, Raleway
+ */
+
+* {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: Kalam;
+    font-size: 6rem;
+}
+
+.navbar-brand {
+    font-family: Kalam;
+}
+
+
 /* CUSTOM CLASSES*/
 
 .bg-bluedark {
     background-color: #171d66;
+}
+
+.bg-reddark {
+    background-color: #B11313;
 }
 
 .row {
@@ -19,13 +45,13 @@ blue-dark : #171d66
 }
 
 .parallax {
-    background: linear-gradient( to right, rgba(0, 0, 0, .75), rgba(23, 29, 102, .50)), url('../img/spidey-wallpaper1.jpg');
+    background: linear-gradient( to right, rgba(0, 0, 0, .75), rgba(23, 29, 102, .75)), url('../img/spidey-wallpaper1.jpg');
     /* background: linear-gradient( rgba(255 255 255 / 12%), rgba(255 255 255 / 23%)), url("../img/spidey-wallpaper1.jpg"); */
     /* background-image: url('../img/spidey-wallpaper1.jpg'); */
     background-attachment: fixed;
     background-position: 100% 30%;
     background-size: cover;
-    height: 85vh;
+    height: 85%;
 }
 
 
@@ -70,6 +96,17 @@ section#services .row:nth-child(2) .col:nth-child(odd) i {
 
 section#services .row:nth-child(2) .col:nth-child(even) i {
     background-color: #171d66;
+}
+
+section#gallery .carousel-item img {
+    width: 100%;
+    height: 400px;
+}
+
+section#contact-me form label,
+section#contact-me form input,
+section#contact-me form textarea {
+    color: white;
 }
 
 
